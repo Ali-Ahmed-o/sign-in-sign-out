@@ -1,0 +1,57 @@
+<link rel="stylesheet" href="website materials/CSS/style.css">
+<link rel="stylesheet" href="website materials/CSS/all.min.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+
+<!----------------------------------------- Sign up start----------------------------------------------->
+
+<div class="container" id="container">
+  <div class="form-container sign-up-container">
+    <form>
+      <h2>Create an Account</h2>
+      <input type="text" placeholder="Full Name">
+      <input type="email" placeholder="Email">
+      <input type="phone number" placeholder="Phone number">
+      <input type="password" placeholder="Password" >
+      <button onclick="return false;">Sign Up</button>
+    </form>
+  </div>
+<!---------------------------------------- sign up end -------------------------------------------------->
+
+
+
+<!------------------------------------- sign in start ---------------------------------------->
+  
+<div class="form-container sign-in-container">
+    <form>
+      <h2>Welcome back, Sign In</h2>
+      <input type="email" placeholder="Email">
+      <input id="password" type="password" placeholder="Password">
+      <i id="visibility"><span id="icon" class="material-symbols-outlined">visibility_off</span></i>
+      <a href="">Forgot password?</a>  <input  class="checkbox" type="checkbox"><h5 class="RM">Remember Me</h5>
+      <button onclick="return false;">Sign In</button>
+      <div class="line"></div>
+      <a class="guest" href="">Continue as a guest <i class="fa-solid fa-right-long"></i></a>
+    </form>
+  </div>
+ 
+  <div class="overlay-container">
+    <div class="overlay">
+      <div class="overlay-panel overlay-left">
+        <h1>Welcome Back!</h1>
+        <p>Please login with your personal info</p>
+        <button class="ghost" id="signIn">Sign In</button>
+      </div>
+      <div class="overlay-panel overlay-right">
+        <h1>Hello there</h1>
+        <p>Enter your personal details and start your journey with us</p>
+        <button class="ghost" id="signUp">Sign Up</button>
+      </div>
+    </div>
+  </div>
+  
+  <!------------------------------------- sign in end --------------------------------------->
+  <script src="website materials/JS/main.js"></script>
+</div>
